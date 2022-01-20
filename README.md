@@ -60,9 +60,9 @@ The function 'combined_file_row_generator' has been written to open each of the 
 
 #### Usage
 
-combined_file_row_generator()
-for row in islice(rows, 5):
-     print(row)
+combined_file_row_generator() </b>
+for row in islice(rows, 5): </b>
+     print(row) </b>
 
 ## Description of functions implemented for solving Goal 3
 
@@ -72,9 +72,9 @@ The function 'combined_file_row_generator_filter_stale' has been written to coll
 
 #### Usage
 
-combined_file_row_generator_filter_stale()
-for row in islice(rows, 5):
-     print(row)
+combined_file_row_generator_filter_stale() </b>
+for row in islice(rows, 5): </b>
+     print(row) </b>
 
 
 ## Description of functions implemented for solving Goal 4
