@@ -81,7 +81,7 @@ for row in islice(rows, 5):</br>
 
 ### car_make_according_to_gender
 
-The function 'car_make_according_to_gender' has been written to calculate the highest selling car corresponding to each gender. This function calls another function 'combined_file_row_generator' within it and uses the output of this class - which is a namedtuple containing the combined information for each person that has been collected from the 4 original files. Two dictionaries have been created - one for each gender of male and female - where the Vehicle Make are the keys and the counts corresponding to each Vehicle Make act as the values. From such a dictionary, the Python in-built function of  'sorted'
+The function 'car_make_according_to_gender' has been written to calculate the highest selling car corresponding to each gender. This function calls another function 'combined_file_row_generator' within it and uses the output of this class - which is a namedtuple containing the combined information for each person that has been collected from the four original files. Two dictionaries have been created - one for each gender of male and female - where the Vehicle Make are the keys and the counts corresponding to each Vehicle Make act as the values. From such a dictionary, the Python in-built function of  'sorted'
 has been used to arrange the values in the descending order, thus giving the user the information about which Vehicle Make ranks highest corresponding to each gender.
 
 #### Usage
