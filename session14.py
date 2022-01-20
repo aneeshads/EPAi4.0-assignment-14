@@ -16,8 +16,8 @@ def get_file(filename):
     'employment_info_data_type' and 'update_info_data_type' - each one corresponding \
     to one of the four input csv files. The function 'get_file' has been written to \
     return the appropriate list when a specific file name is called.
-
     """
+    
     if filename == 'personal_info.csv':
         return personal_info_data_type
     elif filename == 'employment.csv':
